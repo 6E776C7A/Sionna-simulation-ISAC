@@ -11,3 +11,7 @@ ipywidgets>=8.1.5
 # Środowisko Jupyter
 ipykernel
 ipympl
+
+# Przetwarzanie sygnałów 
+scipy
+filterpy
