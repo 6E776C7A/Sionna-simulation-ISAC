@@ -1,3 +1,4 @@
+# --- Python & Jupyter ---
 __pycache__/
 *.py[cod]
 *$py.class
@@ -5,11 +6,13 @@ __pycache__/
 .pytest_cache/
 *.egg-info/
 
+# --- Środowiska wirtualne i biblioteki ---
 .libs/
 venv/
 .venv/
 env/
 
+# --- Ciężkie dane symulacyjne i archiwa ---
 *.npz
 *.npy
 *.zip
@@ -17,14 +20,14 @@ env/
 *.h5
 *.mat
 
-wyniki/
-dane_zapasowe/
-OpenStreetMap/
+# --- Foldery z danymi, wynikami i zasobami ---
+data/
+Images/
 Papers/
+OpenStreetMap/
 Sionna/
 
-Images/
-
+# --- Pliki tymczasowe i systemowe ---
 .DS_Store
 Thumbs.db
 .vscode/

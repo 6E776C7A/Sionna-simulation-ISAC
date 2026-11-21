@@ -1,7 +1,7 @@
 import numpy as np
 import ofdm_config as cfg
 import matplotlib.pyplot as plt
-from mti_filter import mti_filter
+from dsp.mti_filter import mti_filter
 
 def compute_delay_doppler_map(h_cfr, snapshot_id, **mti_filter_params):
     """

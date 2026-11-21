@@ -2,13 +2,13 @@
 import glob
 import os
 import gc
-import data_processing as dp
-import mti_filter as mti
-import delay_doppler as dd
-import cfar as cfar
-import music as music
+import dsp.data_processing as dp
+import dsp.mti_filter as mti
+import dsp.delay_doppler as dd
+import dsp.cfar as cfar
+import dsp.music as music
 import numpy as np
-import kalman_filter as kf
+import dsp.kalman_filter as kf
 
 if __name__ == "__main__":
 
